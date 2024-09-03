@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { easing } from 'maath'
 
 function Portal() {
-    const { nodes, materials } = useGLTF('/GHlogo.glb')
+    const { nodes, materials } = useGLTF('./GHlogo.glb')
     const map = useTexture('./flatTest2.png')
     const [hovered, setHovered] = useState(false)
 

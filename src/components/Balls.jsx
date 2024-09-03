@@ -30,7 +30,7 @@ function Wall({ position, size, rotation}) {
 }
 
 function LogoH({ position }) {
-    const { nodes, materials } = useGLTF('/HTMLlogo.glb')
+    const { nodes, materials } = useGLTF('./HTMLlogo.glb')
     const ref = useRef()
     const [hovered, setHovered] = useState(false)
 
@@ -59,7 +59,7 @@ function LogoH({ position }) {
 }
 
 function LogoC({ position }) {
-    const { nodes, materials } = useGLTF('/CSSlogo.glb')
+    const { nodes, materials } = useGLTF('./CSSlogo.glb')
     const ref = useRef()
     const [hovered, setHovered] = useState(false)
 
@@ -117,7 +117,7 @@ function LogoJ({ position }) {
 }
 
 function LogoR({ position }) {
-    const { nodes, materials } = useGLTF('/ReactLogo2.glb')
+    const { nodes, materials } = useGLTF('./ReactLogo2.glb')
     const ref = useRef()
     const [hovered, setHovered] = useState(false)
 
@@ -144,7 +144,7 @@ function LogoR({ position }) {
 }
 
 function LogoN({ position }) {
-    const { nodes, materials } = useGLTF('/NodeLogo.glb')
+    const { nodes, materials } = useGLTF('./NodeLogo.glb')
     const ref = useRef()
     const [hovered, setHovered] = useState(false)
 
