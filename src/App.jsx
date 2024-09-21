@@ -19,8 +19,6 @@ function App() {
       entries.forEach((entry) => {
           if (entry.isIntersecting) {
               entry.target.classList.add('show')
-          } else {
-              entry.target.classList.remove('show')
           }
       })
     })
@@ -55,7 +53,7 @@ function App() {
         <section id='presentation' className='hidden'>
           <div className='me'>
             <h1>Portfolio de Pierre Bourguignon</h1>
-            <p>Développeur qui fais des trucs</p>
+            <p>Développeur fullstack ayant suivi une formation de développeur web chez Openclassrooms</p>
           </div>
           <div className='presentationCanvas'>
             <GHlink />
@@ -80,7 +78,7 @@ function App() {
           <div className='CPTintro'>
             <h2>Mes Compétences</h2>
             <p>Je connais les langages et librairies suivantes : HTML, CSS, JavaScript, React, Node.js</p>
-            <p className='indication'>Passer la souris sur les logos pour activer leurs physics</p>
+            <p className='indication'>Passer sur les logos pour activer leurs physiques</p>
           </div>
           <div className='CPTcanvas'>
             <Balls />
