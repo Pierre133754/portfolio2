@@ -33,7 +33,7 @@ function Portal() {
                     <planeGeometry args={[35,25]}/>
                     <meshStandardMaterial map={map} />
                 </mesh>
-                <mesh geometry={nodes.GHlogo.geometry} material={materials.defaultMat} rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, -1]}/>
+                <mesh geometry={nodes.GHlogo.geometry} material={materials.defaultMat} rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, -2]} scale={1.25}/>
             </MeshPortalMaterial>
         </mesh>
     )
